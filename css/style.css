@@ -2,4 +2,111 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Semibold';
+  src: url("../fonts/ProximaNova-Semibold.eot");
+  src: url("../fonts/ProximaNova-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Semibold.woff") format("woff"), url("../fonts/ProximaNova-Semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Light';
+  src: url("../fonts/ProximaNova-Light.eot");
+  src: url("../fonts/ProximaNova-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Light.woff") format("woff"), url("../fonts/") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Proxima Nova Light', sans-serif;
+  color: #023eba;
+}
+
+.btn__email {
+  border: 2px solid #507fe1;
+  padding: 17px 22px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: 'Proxima Nova Semibold', sans-serif;
+}
+
+.button {
+  padding: 24px 45px;
+  text-transform: uppercase;
+  border: none;
+  background-color: #023eba;
+  color: #ffffff;
+  font-family: 'Proxima Nova Semibold', sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+.navbar-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 80px;
+}
+
+.navbar__about, .navbar__process, .navbar__portfolio {
+  display: block;
+  font-size: 19px;
+  font-family: 'Proxima Nova Semibold', sans-serif;
+}
+
+.navbar__about a, .navbar__process a, .navbar__portfolio a {
+  text-decoration: none;
+}
+
+.logo__text {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-family: 'Proxima Nova Semibold', sans-serif;
+}
+
+.logo__description {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+}
+
+.hero {
+  background: #f1f1f1 url("../img/hero/hero-bg.jpg") no-repeat center top 80px;
+  background-size: contain;
+  padding-top: 240px;
+  padding-bottom: 649px;
+}
+
+.hero__title {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.hero__subtitle {
+  display: block;
+  font-size: 30px;
+  margin-bottom: 67px;
+  font-family: 'Proxima Nova Semibold', sans-serif;
+}
 /*# sourceMappingURL=style.css.map */
